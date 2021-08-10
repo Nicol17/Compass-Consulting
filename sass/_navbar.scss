@@ -122,3 +122,20 @@
         
         }
     }
+
+    @media screen and (min-width: 900px) and (max-width: 1390px) {
+        .navbar {
+            .logo {
+                width: 13%;
+                margin-top: 0.25%;
+            } 
+            .span {
+                font-size: 1.7em;
+                width: 90%;
+            }
+
+            a:hover {
+            font-size: 1.25rem;
+        }
+    }
+}

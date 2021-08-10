@@ -142,6 +142,20 @@ body {
   }
 }
 
+@media screen and (min-width: 900px) and (max-width: 1390px) {
+  .navbar .logo {
+    width: 13%;
+    margin-top: 0.25%;
+  }
+  .navbar .span {
+    font-size: 1.7em;
+    width: 90%;
+  }
+  .navbar a:hover {
+    font-size: 1.25rem;
+  }
+}
+
 #hero {
   height: 80vh;
   background: url("../img/undraw_counting_stars_rrnl.svg") no-repeat bottom center;
@@ -237,6 +251,17 @@ body {
     position: relative;
     left: 17em;
     top: 27em;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1390px) {
+  #hero .hero-container h2 {
+    font-size: 2rem;
+    width: 35%;
+    top: 1em;
+  }
+  #hero .hero-container h4 {
+    width: 60%;
   }
 }
 
@@ -400,6 +425,19 @@ body {
   }
 }
 
+@media screen and (min-width: 900px) and (max-width: 1390px) {
+  #features h4 {
+    line-height: 120%;
+  }
+  #features .features-container .services .service-text {
+    width: 70%;
+    text-align: justify;
+  }
+  #features .features-container .process .process-text {
+    width: 70%;
+  }
+}
+
 #clients {
   margin: 5vh 7vw;
 }
@@ -530,7 +568,7 @@ body {
 }
 
 #contact .contact-container .contact-form {
-  width: 30%;
+  width: 60%;
   text-align: center;
   margin: 5% 10% 5% 15%;
 }
@@ -620,6 +658,12 @@ body {
   #contact .contact-container .contact-image {
     text-align: center;
     margin-top: 5vh;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1390px) {
+  #contact .contact-container .contact-form {
+    width: 70%;
   }
 }
 

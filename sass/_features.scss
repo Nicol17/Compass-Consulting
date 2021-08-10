@@ -138,3 +138,25 @@
         }
     }
 }
+
+@media screen and (min-width: 900px) and (max-width: 1390px) {
+    #features{
+        h4 {
+            line-height: 120%;
+        }
+        .features-container {
+            .services {
+                .service-text {
+                    width: 70%;
+                    text-align: justify;
+                }
+            }
+            .process{
+                .process-text {
+                    width: 70%;
+                }
+            }
+
+        }
+    }
+}
