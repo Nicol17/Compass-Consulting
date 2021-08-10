@@ -1,0 +1,121 @@
+// HERO
+
+#hero {
+    height: 80vh;
+    background: url('../img/undraw_counting_stars_rrnl.svg') no-repeat bottom center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7vw;
+
+    .hero-container {
+
+        h2 {
+            position: relative;
+            bottom: 2.5em;
+            font-size: 2.3rem;
+            text-transform: capitalize;
+            text-align: start;
+            line-height: 150%;
+            margin: 3%;
+            padding: 5%;
+            width: 35%;
+        }
+
+        h4 {
+            position: relative;
+            left: 45%;
+            top: 2.5em;
+            font-size: 1.7rem;
+            line-height: 150%;
+            text-align: end;
+            width: 45%;
+        }
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+    #hero {
+        padding: 0;
+        display: block;
+        margin-bottom: 37vh;
+        .hero-container {
+            h2 {
+                font-size: 2rem;
+                width: 90%;
+                position: relative;
+                top: 2.5em;
+                text-align: center;
+            }
+    
+            h4 {
+                font-size: 1.15rem;
+                text-align: center;
+                width: 90%;
+                position: relative;
+                left: 1em;
+                top: 25em;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-height: 700px) {
+    #hero {
+        margin-bottom: 42vh;
+        .hero-container {
+            h2 {
+                font-size: 1.75rem;
+                top: .25em;
+            }
+    
+            h4 {
+                font-size: 1.15rem;
+                top: 21em;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 899px) {
+    #hero {
+        padding: 0;
+        display: block;
+        margin-bottom: 10vh;
+        .hero-container {
+            h2 {
+                font-size: 2rem;
+                width: 90%;
+                position: relative;
+                top: 1em;
+                text-align: center;
+            }
+    
+            h4 {
+                font-size: 1.15rem;
+                text-align: center;
+                width: 50%;
+                position: relative;
+                left: 17em;
+                top: 27em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1390px) {
+    #hero {
+        .hero-container {
+            h2 {
+                font-size: 2rem;
+                width: 35%;
+                top: 1em;
+            }
+            h4 {
+                width: 60%;
+            }
+    }
+}
+}
